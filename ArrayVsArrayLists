@@ -1,0 +1,34 @@
+import java.util.*; 
+
+public class MyClass 
+{
+    public static void main(String args[]) 
+    {
+      
+      // This is how to establish a regular Array 
+      
+      // Example Array called "evenNum"
+      int[] evenNum = {2,4,6,8,10};
+      
+      // This is how to establish a regular Array List
+      
+      // Example Array List called oddNum
+      ArrayList<Integer> oddNum = new ArrayList<Integer>();
+      
+      // Must manually add values to Array List individually unlike regular Array
+      oddNum.add(1);
+      oddNum.add(3);
+      oddNum.add(5);
+      oddNum.add(7);
+      oddNum.add(9);
+      
+      // Examples of different syntax in Arrays and Array Lists when accessing items
+      
+      // Example of retrieving item from regular array and outputting it as a message
+      System.out.print("This is the 3rd value in the even number array: "+ evenNum[3]+ "\n");
+      
+      // Example of retrieving item from array list and outputting it as a message
+      System.out.println("This is the 3rd value in the odd number array list: " + oddNum.get(3));
+
+    }
+}
